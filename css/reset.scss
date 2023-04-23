@@ -1,0 +1,53 @@
+@import "./colors";
+
+body {
+  margin: 0;
+  background-color: $bg;
+  overflow-x: hidden;
+  font-family: Poppins, sans-serif;
+  // font-family: 'Poppins', sans-serif;
+  font-size: 16px; //?????? fw:400
+  color: $light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px; //??????????   // font-weight: 400;
+  margin: 0;
+}
+
+img {
+  max-width: 100%; //??????
+  height: auto;
+  display: block;//shu
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: $light; //!!!!!!!!!!!!!!!!1
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0; //????????????inhering from body?
+  list-style-type: none; //?????list-style: none;
+}
+
+p {
+  margin: 0; //why no *{m0}
+}
